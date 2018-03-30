@@ -8,11 +8,20 @@
 
 import UIKit
 
+class Check {
+    let msg = "ハロー"
+    func hello() {
+        print(msg)
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let test = "This is TestProgram"
+        print(test)
     }
 
     override func didReceiveMemoryWarning() {
