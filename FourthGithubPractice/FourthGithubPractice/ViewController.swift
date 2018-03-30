@@ -8,6 +8,13 @@
 
 import UIKit
 
+class Check {
+    let msg = "ハロー"
+    func hello() {
+        print(msg)
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
